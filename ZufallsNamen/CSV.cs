@@ -8,6 +8,7 @@ namespace ZufallsNamen
 {
     internal class CSV
     {
+        //CSV Dateien nicht integriert
         public static Dictionary<int, string> ReadCSV(string path)
         {
             Dictionary<int, string> vnames = new Dictionary<int, string>();
